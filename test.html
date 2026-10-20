@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f0">
+  <title>댕BTI 테스트</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="index.html">🐾 댕BTI</a>
+    <span class="topbar-label">DOG PERSONALITY TEST</span>
+  </header>
+
+  <main class="test-container">
+    <div class="test-heading">
+      <p class="eyebrow">FIND YOUR DOG</p>
+      <h1>나를 알아가는 시간</h1>
+      <p>너무 오래 고민하지 말고 솔직하게 골라봐!</p>
+    </div>
+
+    <section class="quiz-card" id="quiz">
+      <div class="progress-info">
+        <span id="question-number">QUESTION 01 / 25</span>
+        <span id="progress-percent">4%</span>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+
+      <div class="question-content">
+        <div class="question-emoji">🐶</div>
+        <h2 id="question-title">질문을 불러오는 중...</h2>
+        <p class="question-hint">나와 더 가까운 쪽을 선택해 주세요.</p>
+
+        <div class="answer-list">
+          <button class="answer-btn" id="answer-a" type="button">
+            <span class="answer-label">A</span>
+            <span id="answer-text-a"></span>
+          </button>
+
+          <button class="answer-btn" id="answer-b" type="button">
+            <span class="answer-label">B</span>
+            <span id="answer-text-b"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-navigation">
+        <button class="btn btn-outline" id="prev-btn" type="button">
+          ← 이전
+        </button>
+        <span id="answered-count">0 / 25 응답</span>
+        <button class="btn btn-primary" id="next-btn" type="button">
+          다음 →
+        </button>
+      </div>
+
+      <p id="quiz-message" class="form-message" role="status"></p>
+    </section>
+
+    <p class="small-note centered">
+      정답은 없어요. 평소 나의 모습에 가장 가까운 답을 골라주세요.
+    </p>
+  </main>
+
+  <footer class="site-footer">Made with 🐾 for dog lovers</footer>
+</body>
+</html>
