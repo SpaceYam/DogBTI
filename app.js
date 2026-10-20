@@ -171,7 +171,7 @@
         <div class="result-top">
           <p class="eyebrow">YOUR DOG MBTI MATCH</p>
           <div class="result-mbti">${safe(mbti)}</div>
-          <h1>당신과 찰떡궁합인<br>
+          <h1>당신의 강아지상<br>
             <span>${safe(dog.breed)}</span>
           </h1>
           <p class="result-tagline">${safe(dog.tagline)}</p>
@@ -190,7 +190,7 @@
         </div>
 
         <div class="result-body">
-          <div class="match-label">🐾 YOUR SOULMATE</div>
+          <div class="match-label">🐾 YOUR DDANG BTI</div>
           <h2>${safe(dog.breed)}와 당신이 잘 어울리는 이유</h2>
           <p class="reason-text">${safe(dog.reason)}</p>
 
